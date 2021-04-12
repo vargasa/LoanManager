@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LoanSummaryComponent } from './loan-summary/loan-summary.component';
 
 @Component({
   selector: 'app-root',

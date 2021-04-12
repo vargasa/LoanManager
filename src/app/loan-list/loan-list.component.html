@@ -1,0 +1,19 @@
+<table>
+  <thead>
+    <tr>
+      <th>Loan Name</th>
+      <th>Outstanding</th>
+      <th>Pending</th>
+    </tr>
+  </thead>
+  <tr *ngFor="let loan of loanArray">
+    <td>{{loan.name}}</td>
+    <td>{{loan.outstanding}}</td>
+    <td>{{loan.pending}}</td>
+  </tr>
+  <tr>
+    <td> Total </td>
+    <td>{{totalOutstanding}}</td>
+    <td></td>
+  </tr>
+</table>
